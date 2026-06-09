@@ -1,0 +1,39 @@
+filename: ratemyprofessors_sample.txt
+source_type: professor review website
+url: https://www.ratemyprofessors.com
+status: LIMITED ACCESS - main review text was not available from the homepage
+date_accessed: 2026-06-09
+domain: Student reviews and peer-generated campus survival guides
+subtopics: classes, professors, course difficulty, workload, grading
+
+Important note:
+The provided URL is the Rate My Professors homepage, not a specific professor or school review page. The accessible page only shows search/navigation text such as "Enter your school to get started" and "I'd like to look up a professor by name." To collect actual review text, open a specific professor page or school page and copy only the main review comments.
+
+Q&A based on accessible source purpose and review-site use:
+
+Q1. What kind of student knowledge can Rate My Professors provide?
+A1. It can provide student opinions about professors, class difficulty, workload, grading style, clarity, helpfulness, and whether students felt supported in a course.
+
+Q2. Why is Rate My Professors useful for a campus survival guide?
+A2. It helps students make class-planning decisions based on peer experiences rather than only official course descriptions.
+
+Q3. What should students look for in professor reviews?
+A3. Students should look for repeated patterns across reviews, such as comments about heavy homework, unclear lectures, strict grading, useful feedback, attendance rules, or whether exams match lectures.
+
+Q4. Why should Rate My Professors be used carefully?
+A4. Reviews are anonymous and may reflect extreme positive or negative experiences. A single review should not be treated as proof; repeated themes across many reviews are more useful.
+
+Q5. What kind of official information does Rate My Professors supplement?
+A5. It supplements course catalogs, degree plans, professor bios, and university evaluation systems by showing informal student reactions.
+
+Q6. What survival-guide advice can be created from this source?
+A6. Students should compare professor reviews with their own learning style. For example, a professor described as lecture-heavy may work well for some students but poorly for students who need interactive teaching.
+
+Q7. What text should be copied manually for the final dataset?
+A7. Copy only the review comments from specific professor pages. Skip menus, ads, search bars, buttons, filters, login prompts, and footer links.
+
+Q8. What information should be recorded with each copied review?
+A8. Record the professor page URL, school name, course code if visible, date accessed, and the main theme of the review, such as grading, exams, workload, lectures, attendance, or extra credit.
+
+Suggested research use:
+Use Rate My Professors to study how students evaluate classroom survival factors: fair grading, workload, communication, exam preparation, flexibility, and professor support.

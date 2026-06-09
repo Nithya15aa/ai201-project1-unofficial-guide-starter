@@ -1,0 +1,57 @@
+filename: niche_reviews_sample.txt
+source_type: college review/ranking website
+url: https://www.niche.com/colleges/search/best-student-life/
+status: ACCESSIBLE - sample ranking and student review excerpts available
+date_accessed: 2026-06-09
+domain: Student reviews and peer-generated campus survival guides
+subtopics: student_life, campus_culture, classes, advising, food, clubs, social_life, school_spirit
+
+Q&A based on accessible Niche review excerpts:
+
+Q1. What does the Niche page rank?
+A1. The page ranks 2026 colleges with the best student life in America. Niche states that the ranking is based on student reviews and statistics from the U.S. Department of Education.
+
+Q2. What makes a school rank highly for student life?
+A2. According to the page, highly ranked schools tend to have a positive, fun, and friendly student culture along with an active campus community.
+
+Q3. What student-life themes appear in the USC review excerpt?
+A3. The USC review emphasizes a “work hard, play hard” culture, ambitious students, strong school pride, clubs, Greek life, student government, affinity organizations, sports, advising, and professional resources.
+
+Q4. What problems did the USC review mention?
+A4. The review mentions that USC bureaucracy can be frustrating and that freshman meal plans are not ideal.
+
+Q5. What student-life themes appear in the University of Georgia review excerpt?
+A5. The UGA review highlights strong social life, interesting classes, and the importance of showing up to activities that match a student’s interests.
+
+Q6. What issues did the University of Georgia review mention?
+A6. The review mentions that some classes are hard, advising could be better, class registration could be easier, and Greek life may feel too dominant.
+
+Q7. What student-life themes appear in the UCLA review excerpt?
+A7. The UCLA review describes a campus with pride, energy, academic growth, and opportunities to learn across disciplines.
+
+Q8. What issue did the UCLA review mention?
+A8. The review says class enrollment organization and advising could be improved.
+
+Q9. What student-life themes appear in the University of Michigan review excerpt?
+A9. The Michigan review discusses challenging but appropriate classes, helpful professors, living in different residence halls, football games, tailgating, clubs, intramural sports, and school pride.
+
+Q10. What problem did the University of Michigan review mention?
+A10. The review mentions dining hall food as an area for improvement, especially the need for more variety and healthier options.
+
+Q11. What student-life themes appear in the Vanderbilt review excerpt?
+A11. The Vanderbilt review highlights academic support, career services, research and internships, approachable professors, strong facilities, clubs, organizations, and events.
+
+Q12. What issue did the Vanderbilt review mention?
+A12. The review says the social scene can feel divided in some spaces and student groups.
+
+Q13. What survival-guide advice can be created from these reviews?
+A13. Students should look beyond overall rankings and pay attention to repeated practical details: advising quality, class registration, food, campus culture, clubs, school spirit, and whether social life feels inclusive.
+
+Q14. Why is this source useful for student survival research?
+A14. Niche combines broad rankings with student review excerpts, making it useful for identifying what students praise and complain about in campus life.
+
+Q15. What should be copied manually for the final dataset?
+A15. Copy only the visible student review excerpts and school-specific student-life comments. Skip rankings menus, filters, comparison buttons, ads, and footer text.
+
+Suggested research use:
+Use this file to compare student-life strengths and pain points across schools. Themes include involvement, advising, course access, food, dorms, school spirit, social inclusion, and student support resources.

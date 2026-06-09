@@ -1,0 +1,40 @@
+filename: youtube_survival_guide_transcript.txt
+source_type: YouTube video transcript
+url: https://www.youtube.com/watch?v=c58yVp_j55Q
+video_title: College Survival Guide: 10 Things I Wish I Knew in First Year
+status: LIMITED ACCESS - transcript text was not exposed through the browser
+date_accessed: 2026-06-09
+domain: Student reviews and peer-generated campus survival guides
+subtopics: first_year, adjustment, mistakes, lessons_learned, campus_survival
+
+Important note:
+The YouTube transcript was not available through the browser. To complete this source, open the video manually, click the three-dot menu under the video, choose “Show transcript,” and copy the transcript text. Copy only transcript text, not comments, ads, recommended videos, or page navigation.
+
+Q&A based on accessible video title and description snippet:
+
+Q1. What is the video about?
+A1. The video is titled “College Survival Guide: 10 Things I Wish I Knew in First Year.” The accessible description says the video discusses the honest truth about first-year college life, including mistakes, lessons, and advice for starting college.
+
+Q2. Why is this video useful for a campus survival guide?
+A2. It appears to focus on hindsight-based advice from a student perspective, which is useful because first-year students often need practical warnings and realistic expectations.
+
+Q3. What kind of questions should be answered after copying the transcript?
+A3. The transcript should answer questions such as: What mistakes did the speaker make? What does the speaker wish they knew earlier? What advice is given about classes, friends, time management, campus involvement, or mental health?
+
+Q4. What survival-guide themes should be coded from the transcript?
+A4. Code themes such as first-year adjustment, academic expectations, social pressure, independence, routines, asking for help, organization, and avoiding common mistakes.
+
+Q5. What kind of unofficial knowledge might the transcript contain?
+A5. It may contain advice about what college actually feels like, how to avoid preventable mistakes, and how students can adjust socially and academically.
+
+Q6. Why is a YouTube transcript better than only using the video URL?
+A6. A transcript allows the researcher to quote, code, and analyze the spoken advice more accurately. It also makes it easier to identify repeated themes.
+
+Q7. What should be skipped when copying from YouTube?
+A7. Skip ads, comments, recommended videos, channel navigation, autoplay suggestions, and unrelated page text. Copy only the transcript.
+
+Q8. How should this source be cited?
+A8. YouTube. “College Survival Guide: 10 Things I Wish I Knew in First Year.” YouTube, https://www.youtube.com/watch?v=c58yVp_j55Q. Accessed [insert date].
+
+Suggested research use:
+Use this source to collect first-year survival advice based on reflection and lived experience. After copying the transcript, extract direct Q&A about mistakes, lessons learned, academic adjustment, social life, and mental health.

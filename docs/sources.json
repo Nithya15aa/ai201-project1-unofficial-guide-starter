@@ -1,0 +1,141 @@
+[
+  {
+    "filename": "reddit_college_tips.txt",
+    "source_type": "reddit",
+    "subtopic": [
+      "housing",
+      "classes",
+      "mental_health",
+      "campus_jobs"
+    ],
+    "url": "https://www.reddit.com/r/college/",
+    "published_date": "2024"
+  },
+  {
+    "filename": "ratemyprofessors_sample.txt",
+    "source_type": "review_site",
+    "subtopic": [
+      "classes",
+      "academics"
+    ],
+    "url": "https://www.ratemyprofessors.com",
+    "published_date": "2024"
+  },
+  {
+    "filename": "niche_reviews_sample.txt",
+    "source_type": "review_site",
+    "subtopic": [
+      "housing",
+      "food",
+      "safety",
+      "social_life"
+    ],
+    "url": "https://www.niche.com/colleges/search/best-student-life/",
+    "published_date": "2024"
+  },
+  {
+    "filename": "quora_college_advice.txt",
+    "source_type": "qa_forum",
+    "subtopic": [
+      "hidden_resources",
+      "finances",
+      "classes",
+      "campus_jobs"
+    ],
+    "url": "https://www.quora.com/What-are-some-of-the-most-valuable-experiences-a-college-student-should-not-miss-out-on",
+    "published_date": "2024"
+  },
+  {
+    "filename": "youtube_survival_guide_transcript.txt",
+    "source_type": "youtube",
+    "subtopic": [
+      "study_spaces",
+      "social_life",
+      "mental_health",
+      "classes"
+    ],
+    "url": "https://www.youtube.com/watch?v=c58yVp_j55Q",
+    "published_date": "2024"
+  },
+  {
+    "filename": "advancetitan_survival_guide.txt",
+    "source_type": "campus_newspaper",
+    "subtopic": [
+      "safety",
+      "transportation",
+      "housing"
+    ],
+    "url": "https://advancetitan.com/opinion/2024/09/03/freshman-survival-guide",
+    "published_date": "2024-09-03"
+  },
+  {
+    "filename": "thedp_dorm_tips.txt",
+    "source_type": "campus_newspaper",
+    "subtopic": [
+      "housing",
+      "social_life"
+    ],
+    "url": "https://www.thedp.com/article/2016/06/new-student-issue-tips-dorm-living",
+    "published_date": "2016-06-01"
+  },
+  {
+    "filename": "umass_sbs_pathways_blog.txt",
+    "source_type": "student_blog",
+    "subtopic": [
+      "classes",
+      "campus_jobs",
+      "mental_health",
+      "hidden_resources"
+    ],
+    "url": "https://sbspathways.umass.edu/blog/2022/08/31/what-i-wish-id-known-advice-from-juniors-seniors-and-new-grads/",
+    "published_date": "2022-08-31"
+  },
+  {
+    "filename": "hercampus_lmu_hidden_perks.txt",
+    "source_type": "student_blog",
+    "subtopic": [
+      "food",
+      "mental_health",
+      "social_life",
+      "hidden_resources"
+    ],
+    "url": "https://www.hercampus.com/school/lmu/hidden-perks-being-college-student/",
+    "published_date": "2023"
+  },
+  {
+    "filename": "nbc_news_13_things.txt",
+    "source_type": "news_article",
+    "subtopic": [
+      "food",
+      "finances",
+      "social_life",
+      "classes"
+    ],
+    "url": "https://www.nbcnews.com/feature/freshman-year/keep-calm-study-13-things-i-wish-i-knew-freshman-n399641",
+    "published_date": "2015-08-25"
+  },
+  {
+    "filename": "familyaware_alexs_guide.txt",
+    "source_type": "student_blog",
+    "subtopic": [
+      "mental_health",
+      "housing",
+      "hidden_resources",
+      "classes"
+    ],
+    "url": "https://www.familyaware.org/alexs-declassified-college-survival-guide/",
+    "published_date": "2022"
+  },
+  {
+    "filename": "unigo_reviews_sample.txt",
+    "source_type": "review_site",
+    "subtopic": [
+      "housing",
+      "food",
+      "social_life",
+      "classes"
+    ],
+    "url": "https://www.unigo.com/colleges",
+    "published_date": "2024"
+  }
+]
