@@ -58,10 +58,9 @@ def build_index(chunks: list[dict]) -> tuple[faiss.Index, list[dict]]:
     index = faiss.IndexFlatL2(dim)
     index.add(embeddings)
 
-    metadata = [
-        {k: v for k, v in chunk.items() if k != "text"}
-        for chunk in chunks
-    ]
+    # Store ALL fields (including text) so retrieve() is self-contained
+    # and never needs a separate chunk list for text lookup.
+    metadata = [dict(chunk) for chunk in chunks]
 
     return index, metadata
 
@@ -74,22 +73,25 @@ def retrieve(
     query: str,
     index: faiss.Index,
     metadata: list[dict],
-    chunks: list[dict],
+    chunks: list[dict] | None = None,   # kept for backward compat, ignored
     k: int = 5,
 ) -> list[dict]:
     """Embed a query and return the top-k nearest chunks with metadata.
 
+    Text is read directly from metadata (stored there by build_index), so
+    this function is fully self-contained — no separate chunk list needed.
+
     Args:
         query    : Natural-language query string.
         index    : FAISS index built by build_index().
-        metadata : Parallel metadata list returned by build_index().
-        chunks   : Original chunk list (same order) used to look up "text".
+        metadata : Parallel metadata list returned by build_index(). Each
+                   entry includes all chunk fields plus "text".
+        chunks   : Ignored (kept for backward compatibility).
         k        : Number of results to return (default 5).
 
     Returns:
-        List of result dicts, each containing all metadata fields plus:
-            score : FAISS L2 distance (lower = more similar).
-            text  : The chunk's text content.
+        List of result dicts, each containing all metadata fields plus
+        score (FAISS L2 distance; lower = more similar).
         Ordered from most to least similar.
     """
     model = _get_model()
@@ -103,7 +105,6 @@ def retrieve(
             continue
         result = dict(metadata[idx])
         result["score"] = float(dist)
-        result["text"] = chunks[idx]["text"]
         results.append(result)
 
     return results
@@ -198,7 +199,7 @@ if __name__ == "__main__":
     print("=== Retrieval test (top-3 per query) ===\n")
     for query in test_queries:
         print(f"Query: {query!r}")
-        results = retrieve(query, index, metadata, all_chunks, k=3)
+        results = retrieve(query, index, metadata, k=3)
         for rank, r in enumerate(results, 1):
             preview = r["text"][:200].replace("\n", " ")
             print(f"  [{rank}] chunk_id={r['chunk_id']}  score={r['score']:.4f}")
