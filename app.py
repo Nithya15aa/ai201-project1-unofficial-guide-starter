@@ -60,7 +60,7 @@ EXAMPLES = [
 # UI layout
 # ---------------------------------------------------------------------------
 
-with gr.Blocks(title="Campus Survival Guide", theme=gr.themes.Soft()) as demo:
+with gr.Blocks(title="Campus Survival Guide") as demo:
 
     gr.Markdown(
         """
@@ -92,13 +92,13 @@ with gr.Blocks(title="Campus Survival Guide", theme=gr.themes.Soft()) as demo:
             answer_box = gr.Textbox(
                 label="Answer",
                 lines=12,
-                show_copy_button=True,
+
                 interactive=False,
             )
             sources_box = gr.Textbox(
                 label="Retrieved from (top-5 chunks)",
                 lines=6,
-                show_copy_button=True,
+
                 interactive=False,
             )
 
@@ -113,4 +113,4 @@ with gr.Blocks(title="Campus Survival Guide", theme=gr.themes.Soft()) as demo:
 
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(theme=gr.themes.Soft())
